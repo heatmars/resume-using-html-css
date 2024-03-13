@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header, footer, section {
+    padding: 20px;
+    background: linear-gradient(45deg, #bab7ff, #ffb7f7);
+    margin-bottom: 20px;
+}
+h1, h3 {
+    margin-top: 0;
+    font-family: Arial;
+    font-style: bold;
+}
+.Profile-image {
+    position: relative;
+    max-width: 5cm;
+    height: 5.5cm;
+    border-radius: 100px;
+}
+h1
+{
+    position: relative;
+    font-size: 60px;
+    color: #030303;
+    font-family:Arial Bold;
+    line-height: 0.3cm;
+    font-weight: bolder;
+    letter-spacing: 0.1cm;
+}
+h1 span
+{
+    font-size: 20px;
+    font-weight: 5px;
+}
+h2
+{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #fff;
+    background: #231fbf;
+    font-weight: 600;
+    padding: 0 15px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+.ContactInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.ContactInfo li
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+.ContactInfo li .icon
+{
+    color: #0800ff;
+}
+.ContactInfo li .text
+{
+    color: #170532;
+}
+.summary
+{
+    position: relative;
+    border: 50px;
+    font-family: Arial;
+}
+.Skills {
+    position: relative;
+    text-align: left;
+    font-family: arial;
+}
